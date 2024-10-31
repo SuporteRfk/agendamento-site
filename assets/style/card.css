@@ -1,0 +1,12 @@
+.card{
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--primary-color.07);
+    backdrop-filter: blur(10px); /* Intensidade do desfoque */
+    -webkit-backdrop-filter: blur(10px);
+    height: 600px;
+    border-radius: 16px;
+    box-shadow: 
+        3px 4px 4px 0px #00000085,
+        -4px 0px 4px 0px #35353585;
+}
