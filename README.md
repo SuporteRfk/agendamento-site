@@ -1,4 +1,4 @@
-# Site de Agendamento de Reuniões da empresa REFRIKO
+# Site de Agendamento de Reuniões da empresa REFRIKO - Versão 01
 
 Bem-vindo ao site de agendamento de reuniões RFK. Este site foi criado para facilitar o agendamento de salas de reunião da REFRIKO e oferece acesso rápido a informações relevantes.
 
