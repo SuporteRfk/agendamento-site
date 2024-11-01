@@ -1,0 +1,21 @@
+footer{
+    height: 80px;
+    padding: 16px;
+    margin-top: 32px;
+    background-color: var(--cor-primary);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer h4{
+    font: 500 14px var(--font);
+    text-align: center;
+}
+
+footer i{
+    color: var(--cor-secundary);
+    font-size: 18px;
+}

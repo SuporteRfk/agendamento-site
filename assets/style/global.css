@@ -1,0 +1,78 @@
+:root{
+     /* fonte */
+     --font-title: "Work Sans", sans-serif;
+     --font: "Poppins", sans-serif;
+     --font-relogio: "Orbitron", sans-serif;
+     
+     /* cores principais */
+     --cor-primary:     #00aca1;
+     --cor-secundary:    #c8fd04;
+     
+     /* outras cores */
+     --cor-info: #4db2ec;
+     --cor-error: crimson;
+     --cor-atencao: orange;
+     --cor-relogio-bg: #F2FDFF;
+     --cor-font-relogio: blue;
+     --cor-relogio-bg-segundos: #E3E4E5;
+     --cor-box-shadow-segundos: #e42a35;
+
+     /* cores - tons de cinza */
+     --gray-0: #F8F9FA;
+     --gray-1: #e0e0e0;
+     --gray-2: #E3E4E5;
+     --gray-3: #999999;
+     --gray-4: #1c1c1c;
+     --gray-5: #151515;
+     --gray-text: #1c1c1c;
+}
+
+:root.dark{
+     --gray-0: #0A0A0A;
+     --gray-1: #151515;
+     --gray-2: #1c1c1c;
+     --gray-3: #484849;
+     --gray-4: #e0e0e0;
+     --gray-5: #EAEBEC;
+     --gray-text: #c7c7c7;
+     --cor-relogio-bg: #0E69B9;
+     --cor-font-relogio: #F8F9FA;
+     --cor-relogio-bg-segundos: #343434;
+     --cor-box-shadow-segundos: #000;
+}
+
+body{
+     background-color: var(--gray-2);
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.container{
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+img{
+     width: 100px;
+     height: 100px;
+}
+
+#desktop{
+     display: none;
+}
+
+
+
+@media (min-width: 768px) {
+     #mobile{
+          display: none;
+     }
+     #desktop{
+          display: unset;
+     }
+}
+
+
