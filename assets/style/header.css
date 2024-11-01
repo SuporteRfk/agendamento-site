@@ -1,0 +1,106 @@
+header{
+     background-color: var(--gray-1);
+     width: 100%;
+     box-shadow: -1px -1px 13px 0px  var(--gray-0);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     border-radius: 0px 0px 8px 8px;
+}
+
+div.logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 16px;
+}
+
+div.logo img{
+     object-fit: cover;
+     height: 100%;
+     width: 45px;
+}
+
+div.logo h1{
+     font: 600 24px var(--font-title);
+     color: var(--gray-4);
+}
+
+nav.subMenu{
+     background-color: var(--cor-primary);
+     border-radius: 0px 0px 8px 8px;
+     height: 40px;
+     padding: 8px;
+     display: flex;
+     font-family: var(--font);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+nav.subMenu ul{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+nav.subMenu ul li a,button{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+
+     color: #e0e0e0;
+     font: 400 12px var(--font);
+     padding-top: 4px;
+}
+
+
+nav.subMenu ul li button{
+     background-color: transparent;
+     border: unset;
+}
+
+nav.subMenu ul li a:hover, button:hover{
+     color: var(--cor-secundary);
+     transition: 0.2s ease-in-out;
+}
+
+.ligth{
+     filter: drop-shadow(0px 1px 5px #ffd700);
+     color: var(--cor-secundary);
+}
+
+
+@media(min-width:395px){
+   
+     nav.subMenu ul{
+          gap: 16px;
+     }
+     nav.subMenu ul li a,button{
+          padding-top: unset;
+          flex-direction: row;
+          gap: 4px;
+     }
+} 
+@media(min-width:768px){
+     header{
+          height: 100px;
+          border-radius: unset;
+          box-shadow: 3px 15px 19px 17px var(--gray-0);
+     }
+     div.logo{
+          height: 100%;
+     }
+     div.logo img{
+          width: 170px;
+     }
+     nav.subMenu ul{
+          justify-content: space-around;
+     }
+     nav.subMenu ul li a,button{
+          font-size: 15px;
+          gap: 8px;
+     }
+}
