@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Configuração de metados -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  <!-- Ícones do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans&family=Orbitron&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicon da página -->
+  <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
+
+  <!-- Título da página -->
+  <title>Reuniões RFK</title>
+</head>
+
+<body>
+  <!-- Cabeçalho da página -->
+  <header>
+    <div class="logo container">
+      <img src="assets/img/logoMobile.png" alt="logo refriko" id="mobile">
+      <img src="assets/img/logo.png" alt="logo refriko" id="desktop">
+      <h1>T.I Central</h1>
+    </div>
+    <nav class="subMenu ">
+      <ul class="container">
+        <li>
+          <a href="https://baserow.io/public/grid/jXephRw9HVSrvKPTzNarfEx063DLinVeZqYV93zQsGU" target="_blank" title="Ver Calendário">
+            <i class="fa-solid fa-calendar-days"></i>
+            Disponibilidade
+          </a>
+        </li>
+        <li>
+          <a href="https://documentacao.rfk.ind.br/login" target="_blank" title="Documentação">
+            <i class="fa-solid fa-book"></i>
+            Documentação
+          </a>
+        </li>
+        <li>
+          <a href="https://rda.rfk.ind.br/index.php?redirect=%2Fajax%2Fdashboard.php%3Faction%3Dget_card%26dashboard%3Dcentral%26card_id%3Dticket_status%26force%3D0%26embed%3D0%26args%255Bcolor%255D%3D%2523f3f6f4%26args%255Bwidgettype%255D%3Dstackedbars%26args%255Buse_gradient%255D%3D0%26args%255Bpoint_labels%255D%3D0%26args%255Blimit%255D%3D7%26args%255Bcache_key%255D%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc%26args%255Bcard_id%255D%3Dticket_status%26args%255Bgridstack_id%255D%3Dticket_status_8464194e-9c9b-4630-90ee-fb60b65a2182%26d_cache_key%3Dda39a3ee5e6b4b0d3255bfef95601890afd80709%26c_cache_key%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc&error=3" target="_blank" title="Abrir chamado">
+            <i class="fa-solid fa-ticket"></i>
+            Chamado
+          </a>
+        </li>
+        <li>
+          <button class="tema" title="Alterar tema"></button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Agendamento</h2>
+    <p>Para agendar, selecione uma sala abaixo. Se preferir, verifique primeiro a disponibilidade no botão referente acima do relógio.</p>
+    
+    <section>
+      <a href="https://cal.com/sala-refriko" target="_blank" class="card_agendamento refriko">
+        <div>
+          <h3>Sala</h3>
+        </div>
+      </a>
+      <a href="https://cal.com/sala-furioso" target="_blank" class="card_agendamento furioso">
+        <div>
+          <h3>Sala </h3>
+        </div>
+      </a>
+      <a href="https://cal.com/sala-delirio" target="_blank" class="card_agendamento delirio">
+        <div>
+          <h3>Sala </h3>
+        </div>
+      </a>
+      <a href="https://cal.com/agendamento-cgr" target="_blank" class="card_agendamento campoGrande">
+        <div>
+          <h3>Campo Grande</h3>
+        </div>
+      </a>
+    </section>
+  </main>
+  <footer>
+    <h4 class="container">© 2024 - Desenvolvido pelo Departamento de T.I </h4>
+    <i class="fa-solid fa-robot"></i>
+  </footer>
+  <!-- modal -->
+  <div class="modal">
+    <div class="modal_conteudo">
+      <div class="modal_header">
+        <p>
+          <i class="fa-solid fa-circle-info"></i>
+          Informações
+        </p>
+        <button class="modal_btn_fechar">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+      </div>
+      <section class="modal_main">
+        <div class="modal_main_atencao">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <p class="modal_texto">Para cancelar reuniões, por favor, comunique-se com a recepção ou envie um e-mail. Em
+            caso de dúvidas, estamos à disposição para ajudar.</p>
+        </div>
+        <div class="modal_main_legenda">
+          <div class="modal_legenda_card">
+            <i class="fa-solid fa-calendar-days"></i>
+            <p class="modal_texto">
+              Consulte as disponibilidade das salas.</p>
+          </div>
+          <div class="modal_legenda_card">
+            <i class="fa-solid fa-book"></i>
+             
+            <p class="modal_texto">Acesse e verifique a documentação dos processos</p>
+          </div>
+          <div class="modal_legenda_card">
+            <i class="fa-solid fa-ticket"></i>
+             
+            <p class="modal_texto">Problema, ou precisa de ajuda, abra um chamado</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+</body>
+
+</html>

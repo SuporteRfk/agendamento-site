@@ -10,7 +10,7 @@ Bem-vindo ao site de agendamento de reuniões RFK. Este site foi criado para fac
 
 ## Como Usar
 
-1. Escolha uma das salas de reunião disponíveis.
+1. Escolha uma das salas de reunião disponíveis.""
 2. Clique no link correspondente para agendar a sala de reunião.
 3. Para verificar se há algum agendamento, clique no ícone do calendário no cabeçalho.
 4. Para acessar a documentação, clique no ícone de informações no cabeçalho.
