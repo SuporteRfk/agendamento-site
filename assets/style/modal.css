@@ -1,0 +1,111 @@
+div.modal {
+     background-color:#2125298f;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     padding: 0px 8px;
+}
+
+div.modal div.modal_conteudo{
+     width: 100%;
+     max-width: 500px;
+     height: 430px;
+     background-color: var(--gray-1);
+     border-radius: 16px;
+}
+
+div.modal div.modal_conteudo div.modal_header{
+     display: flex;
+     justify-content: space-between;
+     padding: 16px;
+     border-bottom: 1.5px dashed var(--gray-3);
+}
+
+div.modal div.modal_conteudo div.modal_header p {
+     font: 600 18px var(--font);
+     color: var(--gray-text);
+}
+div.modal div.modal_conteudo div.modal_header p i{
+     color: var(--cor-info);
+}
+div.modal div.modal_conteudo div.modal_header button{
+     color: var(--cor-error);
+     background-color: transparent;
+     border: unset;
+     font-size: 20px;
+}
+
+section.modal_main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+section.modal_main div.modal_main_atencao{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 16px;
+}
+
+section.modal_main div.modal_main_atencao p{
+     background-color: #797c7e2d;
+     padding: 8px;
+     border-radius: 8px;
+     font-weight: 600;
+}
+
+section.modal_main div.modal_main_atencao i{
+    color: var(--cor-atencao);
+    font-size: 20px;
+}
+
+section.modal_main p.modal_texto{
+     color: var(--gray-text);
+     font: 500 12px var(--font);
+     text-align: center;
+}
+
+section.modal_main div.modal_main_legenda{
+     display: flex;
+     flex-direction: column;
+     padding: 8px;
+     gap: 8px;
+}
+section.modal_main div.modal_main_legenda div.modal_legenda_card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 4px;
+     text-align: justify;
+     width: 100%;
+     height: 70px;
+     background-color: var(--gray-2);
+     border-radius: 8px;
+     padding: 8px;
+     justify-content: center;
+     box-shadow: 2px 2px 2px var(--gray-3);
+}
+section.modal_main div.modal_main_legenda div.modal_legenda_card i{
+     color: var(--cor-info);
+}
+section.modal_main div.modal_main_legenda div.modal_legenda_card p{
+     color: var(--gray-text);
+}
+
+@media (min-width: 400px){
+     div.modal div.modal_conteudo{
+          height: 336px;
+     }
+
+     section.modal_main div.modal_main_legenda{
+          flex-direction: row;
+     }
+     section.modal_main div.modal_main_legenda div.modal_legenda_card{
+          height: 110px;
+     }
+}
